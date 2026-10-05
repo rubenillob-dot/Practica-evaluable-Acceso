@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<EMPRESA>
+    <TITULO>DATOS DE LAS TABLA DEPART y EMPLE </TITULO>
+    <DEPARTAMENTO id="10">
+        <LOC>SEVILLA</LOC>
+        <DNOMBRE>CONTABILIDAD</DNOMBRE>
+        <EMPLEADOS>
+            <EMPLEADO numero="7782">
+                <APELLIDO>CEREZO</APELLIDO>
+                <OFICIO>DIRECTOR</OFICIO>
+                <DIR>7839</DIR>
+                <FECHA_ALT>1991-06-09</FECHA_ALT>
+                <SALARIO>2885</SALARIO>
+                <COMISION>0</COMISION>
+            </EMPLEADO>
+            <EMPLEADO numero="7839">
+                <APELLIDO>REY</APELLIDO>
+                <OFICIO>PRESIDENTE</OFICIO>
+                <DIR>0</DIR>
+                <FECHA_ALT>1991-11-17</FECHA_ALT>
+                <SALARIO>4100</SALARIO>
+                <COMISION>0</COMISION>
+            </EMPLEADO>
+            <EMPLEADO numero="7934">
+                <APELLIDO>MUÑOZ</APELLIDO>
+                <OFICIO>EMPLEADO</OFICIO>
+                <DIR>7782</DIR>
+                <FECHA_ALT>1992-01-23</FECHA_ALT>
+                <SALARIO>1690</SALARIO>
+                <COMISION>0</COMISION>
+            </EMPLEADO>
+        </EMPLEADOS>
+    </DEPARTAMENTO>
+    <DEPARTAMENTO id="20">
+        <LOC>MADRID</LOC>
+        <DNOMBRE>INVESTIGACION</DNOMBRE>
+        <EMPLEADOS>
+            <EMPLEADO numero="7369">
+                <APELLIDO>SANCHEZ</APELLIDO>
+                <OFICIO>EMPLEADO</OFICIO>
+                <DIR>7902</DIR>
+                <FECHA_ALT>1990-12-17</FECHA_ALT>
+                <SALARIO>1040</SALARIO>
+                <COMISION>0</COMISION>
+            </EMPLEADO>
+            <EMPLEADO numero="7566">
+                <APELLIDO>JIMENEZ</APELLIDO>
+                <OFICIO>DIRECTOR</OFICIO>
+                <DIR>7839</DIR>
+                <FECHA_ALT>1991-04-02</FECHA_ALT>
+                <SALARIO>2900</SALARIO>
+                <COMISION>0</COMISION>
+            </EMPLEADO>
+            <EMPLEADO numero="7788">
+                <APELLIDO>GIL</APELLIDO>
+                <OFICIO>ANALISTA</OFICIO>
+                <DIR>7566</DIR>
+                <FECHA_ALT>1991-11-09</FECHA_ALT>
+                <SALARIO>3000</SALARIO>
+                <COMISION>0</COMISION>
+            </EMPLEADO>
+            <EMPLEADO numero="7876">
+                <APELLIDO>ALONSO</APELLIDO>
+                <OFICIO>EMPLEADO</OFICIO>
+                <DIR>7788</DIR>
+                <FECHA_ALT>1991-09-23</FECHA_ALT>
+                <SALARIO>1430</SALARIO>
+                <COMISION>0</COMISION>
+            </EMPLEADO>
+            <EMPLEADO numero="7902">
+                <APELLIDO>FERNANDEZ</APELLIDO>
+                <OFICIO>ANALISTA</OFICIO>
+                <DIR>7566</DIR>
+                <FECHA_ALT>1991-12-03</FECHA_ALT>
+                <SALARIO>3000</SALARIO>
+                <COMISION>0</COMISION>
+            </EMPLEADO>
+        </EMPLEADOS>
+    </DEPARTAMENTO>
+    <DEPARTAMENTO id="30">
+        <LOC>BARCELONA</LOC>
+        <DNOMBRE>VENTAS</DNOMBRE>
+        <EMPLEADOS>
+            <EMPLEADO numero="7499">
+                <APELLIDO>ARROYO</APELLIDO>
+                <OFICIO>VENDEDOR</OFICIO>
+                <DIR>7698</DIR>
+                <FECHA_ALT>1990-02-20</FECHA_ALT>
+                <SALARIO>1500</SALARIO>
+                <COMISION>390</COMISION>
+            </EMPLEADO>
+            <EMPLEADO numero="7521">
+                <APELLIDO>SALA</APELLIDO>
+                <OFICIO>VENDEDOR</OFICIO>
+                <DIR>7698</DIR>
+                <FECHA_ALT>1991-02-22</FECHA_ALT>
+                <SALARIO>1625</SALARIO>
+                <COMISION>650</COMISION>
+            </EMPLEADO>
+            <EMPLEADO numero="7654">
+                <APELLIDO>MARTIN</APELLIDO>
+                <OFICIO>VENDEDOR</OFICIO>
+                <DIR>7698</DIR>
+                <FECHA_ALT>1991-09-29</FECHA_ALT>
+                <SALARIO>1600</SALARIO>
+                <COMISION>1020</COMISION>
+            </EMPLEADO>
+            <EMPLEADO numero="7698">
+                <APELLIDO>NEGRO</APELLIDO>
+                <OFICIO>DIRECTOR</OFICIO>
+                <DIR>7839</DIR>
+                <FECHA_ALT>1991-05-01</FECHA_ALT>
+                <SALARIO>3005</SALARIO>
+                <COMISION>0</COMISION>
+            </EMPLEADO>
+            <EMPLEADO numero="7844">
+                <APELLIDO>TOVAR</APELLIDO>
+                <OFICIO>VENDEDOR</OFICIO>
+                <DIR>7698</DIR>
+                <FECHA_ALT>1991-09-08</FECHA_ALT>
+                <SALARIO>1350</SALARIO>
+                <COMISION>0</COMISION>
+            </EMPLEADO>
+            <EMPLEADO numero="7900">
+                <APELLIDO>JIMENO</APELLIDO>
+                <OFICIO>EMPLEADO</OFICIO>
+                <DIR>7698</DIR>
+                <FECHA_ALT>1991-12-03</FECHA_ALT>
+                <SALARIO>1335</SALARIO>
+                <COMISION>0</COMISION>
+            </EMPLEADO>
+        </EMPLEADOS>
+    </DEPARTAMENTO>
+    <DEPARTAMENTO id="40">
+        <LOC>BILBAO</LOC>
+        <DNOMBRE>PRODUCCION</DNOMBRE>
+        <EMPLEADOS/>
+    </DEPARTAMENTO>
+</EMPRESA>
