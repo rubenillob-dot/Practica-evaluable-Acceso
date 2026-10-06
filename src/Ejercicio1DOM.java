@@ -26,9 +26,9 @@ public class Ejercicio1DOM {
             NodeList listaDepartamentos = doc.getElementsByTagName("DEP_ROW");
             NodeList listaEmpleados = doc.getElementsByTagName("EMP_ROW");
 
-            System.out.println("===============================================================");
+            
             System.out.println("       LISTADO DE DEPARTAMENTOS Y EMPLEADOS CON DOM           ");
-            System.out.println("===============================================================");
+            
 
             // Recorremos cada departamento
             for (int i = 0; i < listaDepartamentos.getLength(); i++) {
@@ -38,9 +38,9 @@ public class Ejercicio1DOM {
                 String nombreDept = obtenerTexto(dep, "DNOMBRE");
                 String localidad = obtenerTexto(dep, "LOC");
 
-                System.out.println("\n-------------------------------------------------------------");
+            
                 System.out.println("DEPARTAMENTO " + numDept + ": " + nombreDept + " (" + localidad + ")");
-                System.out.println("-------------------------------------------------------------");
+                
 
                 // Buscamos los empleados que pertenecen a este departamento
                 boolean tieneEmpleados = false;
@@ -67,7 +67,7 @@ public class Ejercicio1DOM {
                 }
             }
 
-            System.out.println("\n===============================================================");
+           
             System.out.println("Proceso finalizado correctamente.");
 
         } catch (Exception e) {
