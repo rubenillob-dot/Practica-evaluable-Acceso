@@ -27,7 +27,7 @@ public class Ejercicio1DOM {
             NodeList listaEmpleados = doc.getElementsByTagName("EMP_ROW");
 
             
-            System.out.println("       LISTADO DE DEPARTAMENTOS Y EMPLEADOS CON DOM           ");
+            System.out.println("LISTADO DE DEPARTAMENTOS Y EMPLEADOS CON DOM");
             
 
             // Recorremos cada departamento
