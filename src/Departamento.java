@@ -22,7 +22,7 @@ public class Departamento {
     @XmlElement(name = "DNOMBRE")
     private String dnombre;
 
-    // Etiqueta contenedora <EMPLEADOS> con la lista de <EMPLEADO>
+    // Etiqueta <EMPLEADOS> con la lista de <EMPLEADO>
     @XmlElementWrapper(name = "EMPLEADOS")
     @XmlElement(name = "EMPLEADO")
     private List<Empleado> empleados = new ArrayList<>();
@@ -38,7 +38,6 @@ public class Departamento {
         this.loc = loc;
     }
 
-    // Getters y Setters
     public String getId() {
         return id;
     }

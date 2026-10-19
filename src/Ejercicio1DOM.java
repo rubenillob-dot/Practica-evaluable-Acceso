@@ -61,7 +61,7 @@ public class Ejercicio1DOM {
                     }
                 }
 
-                // Si un departamento no tiene empleados (como Producción)
+                // Si un departamento no tiene empleados 
                 if (!tieneEmpleados) {
                     System.out.println("  (Este departamento no tiene empleados)");
                 }
@@ -76,7 +76,7 @@ public class Ejercicio1DOM {
         }
     }
 
-    // Método auxiliar para leer el texto de una etiqueta dentro de un elemento
+    // Método para leer el texto de una etiqueta dentro de un elemento
     private static String obtenerTexto(Element elemento, String etiqueta) {
         NodeList lista = elemento.getElementsByTagName(etiqueta);
         if (lista != null && lista.getLength() > 0) {

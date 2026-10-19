@@ -11,7 +11,7 @@ public class Ejercicio2JAXB {
 
     public static void main(String[] args) {
         try {
-            // 1. Buscamos el fichero origen con ruta relativa
+            // Buscamos el fichero origen con ruta relativa
             File ficheroEntrada = obtenerFicheroXml("DepartamentosEmpleados.xml");
             if (!ficheroEntrada.exists()) {
                 System.out.println("No se ha encontrado el fichero origen: " + ficheroEntrada.getPath());
@@ -67,7 +67,6 @@ public class Ejercicio2JAXB {
                 empresa.getDepartamentos().add(depto);
             }
 
-            // 2. Definimos la ruta del fichero de salida DatosEmpresa.xml
             File ficheroSalida = new File(ficheroEntrada.getParent() != null ? ficheroEntrada.getParent() : ".", "DatosEmpresa.xml");
             System.out.println("2. Generando fichero XML con JAXB en: " + ficheroSalida.getPath());
 
@@ -75,7 +74,7 @@ public class Ejercicio2JAXB {
             JAXBContext context = JAXBContext.newInstance(Empresa.class);
             Marshaller marshaller = context.createMarshaller();
 
-            // Opciones de formato para que el XML quede ordenado y legible
+            // Opciones de formato para que el XML quede ordenado 
             marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.TRUE);
             marshaller.setProperty(Marshaller.JAXB_ENCODING, "UTF-8");
 

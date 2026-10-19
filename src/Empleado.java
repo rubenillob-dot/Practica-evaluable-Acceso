@@ -46,7 +46,7 @@ public class Empleado {
         this.comision = comision;
     }
 
-    // Getters y Setters
+   
     public String getNumero() {
         return numero;
     }
